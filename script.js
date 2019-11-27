@@ -8,6 +8,7 @@ let chat = document.querySelector('.chatbox');
 let send = document.querySelector('#send');
 
 
+// for the scrolling
 
 ;(()=>{
 	chat.maxScrollTop = chat.scrollHeight - chat.offsetHeight;
